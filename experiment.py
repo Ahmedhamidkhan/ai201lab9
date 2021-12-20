@@ -29,7 +29,7 @@ def decrypt(message, key):
     return result
 
 
-message = "DEFENDTHEFORT"
+message = "KILLTHELEADER"
 key = 7
 encr=encrypt(message, key)
 decr=decrypt(encr, key)
